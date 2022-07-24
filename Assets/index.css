@@ -23,3 +23,16 @@
                 inset 40px -40px 44px #a8ceff;
 
 }
+
+.drop::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #E6FDFB;
+    border-radius: 44% 56% 46% 54% / 36% 50% 50% 64%;
+    left: 130px;
+    top: 40px;
+    box-shadow: 16px 40px 0 -10px white;
+    opacity: 0.8;
+}
